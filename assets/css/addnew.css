@@ -1,0 +1,113 @@
+.buyplanformsection{
+    margin-top: 160px;
+}
+.buyplanformsection .buyplanform{
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    color: #000;
+    border-radius: 5px;
+}
+.buyplanformsection .buyplanform label{
+    font-size:14px;
+    font-weight: 600;
+}
+.buyplanformsection .buyplanform h3{
+    background: #ddd;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0px;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 40px;
+}
+.buyplanformsection input, .buyplanformsection button, .buyplanformsection select{
+    color:#000;
+    height: 45px;
+    background: #f4f4f4;
+    font-size: 14px;
+}
+.buyplanformsection input:focus{
+    border: none;
+}
+.buyplanformsection input::-webkit-input-placeholder {
+    font-size: 14px;
+}
+.buyplanformsection .submitplan{
+    background: #ee4730;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border: 1px solid #ee4730;
+}
+.buyplanformsection .plantitle{
+    text-align: center;
+    color: #ee4730;
+    font-size: 14px;
+    font-weight: 600;
+}
+.alreadyaccount{
+    float: right;
+    font-size: 14px;
+}
+.errorr p, .errorr{
+    color: red; 
+    font-size: 13px;
+}
+.buyplanformsection .buyplanformsuccess{
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    color: #000;
+    border-radius: 5px;
+}
+.buyplanformsection .buyplanformsuccess h3{
+    background: #bdefca;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0 20px 0px;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 40px;
+}
+.buyplanformsuccessdiv{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    padding: 5px 50px;
+}
+.buyplanformsection .buyplanformfailed{
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    color: #000;
+    border-radius: 5px;
+}
+.buyplanformsection .buyplanformfailed h3{
+    background: #efcbbd;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0 20px 0px;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 40px;
+}
+.buyplanformfaileddiv{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+}

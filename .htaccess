@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+</IfModule>
+
+RewriteBase /qbom/qbom.pt/
+
+RewriteRule ^index index.php
+RewriteRule ^vantagens vantagens.php
+RewriteRule ^covid19 covid19.php
+RewriteRule ^contacto contacto.php
+RewriteRule ^termos_condicoes termos_condicoes.php
+RewriteRule ^politica_privacidade politica_privacidade.php
+
+RewriteRule ^registerbuyplan/([a-zA-Z0-9_-]+) registerbuyplan.php?plan=$1
+RewriteRule ^loginbuyplan/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+) loginbuyplan.php?plan=$1&restaurant=$2 
+RewriteRule ^loginbuyplan/([a-zA-Z0-9_-]+) loginbuyplan.php?plan=$1
+
+RewriteRule ^success/([a-zA-Z0-9_-]+) success.php?transactionID=$1
+RewriteRule ^failed/([a-zA-Z0-9_-]+) failed.php?transactionID=$1
+RewriteRule ^activation/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+) activation.php?currentid=$1&activation_code=$2 
